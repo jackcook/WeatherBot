@@ -35,7 +35,7 @@ public class WeatherBot {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
+
 		XMLParser rp = new XMLParser();
 		return rp.getWeatherFromXML(weatherxml.replaceAll("><", ">\n<"));
 	}

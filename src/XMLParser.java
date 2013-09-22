@@ -16,8 +16,8 @@ public class XMLParser {
 		int htemp = 0;
 		int ltemp = 0;
 		int wspeed = 0;
-		List<String> imgurl = new ArrayList<>();
-		List<String> desc = new ArrayList<>();
+		List<String> imgurl = new ArrayList<String>();
+		List<String> desc = new ArrayList<String>();
 		String dir = "";
 		try {
 			for (String s : xml.replaceAll("><", ">\n<").split("\n")) {
@@ -68,9 +68,9 @@ public class XMLParser {
 		int wspeed = 0;
 		int pressure = 0;
 		int ccover = 0;
-		List<String> imgurl = new ArrayList<>();
+		List<String> imgurl = new ArrayList<String>();
 		String dir = "";
-		List<String> desc = new ArrayList<>();
+		List<String> desc = new ArrayList<String>();
 		try {
 			for (String s : xml.replaceAll("><", ">\n<").split("\n")) {
 				if (s.contains("CDATA")) {
