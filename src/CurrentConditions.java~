@@ -1,8 +1,3 @@
-/**
- * The CurrentConditions class represents a current condition
- * @author Jack Cook
- * @version 1.0, June 2013
- */
 public class CurrentConditions {
 	
 	public CurrentConditions(int ctemp, int humid, int wspeed, int pressure, int ccover, String imgurl, String dir, String desc) {

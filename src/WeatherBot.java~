@@ -12,11 +12,6 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
 
-/**
- * The WeatherBot class is the main class
- * @author Jack Cook
- * @version 1.0, June 2013
- */
 public class WeatherBot {
 
 	public static void main(String[] args) throws Exception {

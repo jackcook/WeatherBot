@@ -6,11 +6,6 @@ import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 
-/**
- * The WeatherBotInterface class represents the program's interface
- * @author Alec Lessing
- * @version 1.0, June 2013
- */
 public class WeatherBotInterface extends JFrame {
 
 	private JLabel data;

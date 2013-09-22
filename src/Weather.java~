@@ -1,8 +1,3 @@
-/**
- * The Weather class represents a forecast day
- * @author Jack Cook
- * @version 1.0, June 2013
- */
 public class Weather {
 
 	public Weather(int htemp, int ltemp, int wspeed, String url, String desc, String dir) {
